@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+body{
+    background-color: black;
+    color: white;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right:100px;
+    margin-top: 20px;
+
+}
+
+.link > a {
+    text-decoration: none;
+    color: #ec1579;
+    font-size: 18px;
+    margin-left: 20px;
+}
+.link > a:hover {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.btn{
+    padding: 10px 20px;
+    border-style: none;
+    background: #ec1579;
+    color: black;
+    box-shadow: 0px 0px 20px white;
+    border-radius: 24px;
+    margin-left: 20px;
+}
+.btn:hover{
+    background-color: white;
+    color: #ec1579;
+    box-shadow: 0px 0px 20px #ec1579;
+
+}
+
+.mainsection{
+    display: flex;
+    justify-content: space-around;
+    height: 80vh;
+    align-items: center;
+}
+.content1 > span{
+    font-size: 60px;
+    color: #ec1579;
+    margin-bottom: 40px;
+    font-weight: bold;
+    text-shadow: 0px 0px 30px #ec1579;
+
+}
+.content1 > p {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+
+/* index section */
+
+.table{
+    width: 300px;
+    height: 100vh;
+}
+th{
+    font-weight: bold;
+    color: #ec1579;
+    font-size: 28px;
+}
+td{
+    text-align: center;
+    font-size: 20px;
+
+    
+}
+td:hover{
+    color: #ec1579;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.index{
+    display: flex;
+    justify-content: space-around;
+}
+.container{
+    width: 1050px;
+    height: 100vh;
+}
+.topic{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #ec1579;
+    font-size: 35px;
+    text-shadow: 0px 0px 30px #ec1579;
+
+}
+
+/* uses */
+.circle {
+    padding: 30px;
+    width: 100px;
+    background: #ec1579;
+    color: black;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px white;
+    text-align: center;
+
+
+}
+.uses{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+}
+.heading{
+    margin-top: 50px;
+    margin-left: 30px;
+}
